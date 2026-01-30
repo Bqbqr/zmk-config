@@ -14,6 +14,6 @@
 ---
 include:
   - board: xiao_ble
-    shield: corny_left rgbled_widget
+    shield: corny_left
   - board: xiao_ble
-    shield: corny_right rgbled_widget
+    shield: corny_right

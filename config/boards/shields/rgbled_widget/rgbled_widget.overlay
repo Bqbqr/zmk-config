@@ -16,8 +16,8 @@
     };
 
     aliases {
-        led_red = &led_red;
-        led_green = &led_green;
-        led_blue = &led_blue;
+        led-red = &led_red;
+        led-green = &led_green;
+        led-blue = &led_blue;
     };
 };

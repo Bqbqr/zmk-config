@@ -1,4 +1,20 @@
-{
+/ {
+    leds {
+        compatible = "zmk,leds";
+
+        led_red: led_red {
+            color = <0>;
+        };
+
+        led_green: led_green {
+            color = <1>;
+        };
+
+        led_blue: led_blue {
+            color = <2>;
+        };
+    };
+
     aliases {
         led_red = &led_red;
         led_green = &led_green;
